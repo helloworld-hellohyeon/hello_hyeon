@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactRotatingText from 'react-rotating-text';
-import IconButtonBar from '../icon-button-bar';
-import Image from '../image';
-import './style.scss';
+import React from "react";
+import ReactRotatingText from "react-rotating-text";
+import IconButtonBar from "../icon-button-bar";
+import Image from "../image";
+import "./style.scss";
 
-function Bio({ author, language = 'ko' }) {
+function Bio({ author, language = "ko" }) {
   if (!author) return null;
   const { bio, social, name } = author;
   return (
     <div className="bio">
-      {language === 'ko' ? (
+      {language === "ko" ? (
         <div className="introduction korean">
           <p className="title">
             안녕하세요.
@@ -42,9 +42,6 @@ function Bio({ author, language = 'ko' }) {
           </div>
         </div>
       )}
-      <div className="thumbnail-wrapper">
-        <Image src={bio.thumbnail} alt="thumbnail" />
-      </div>
     </div>
   );
 }
