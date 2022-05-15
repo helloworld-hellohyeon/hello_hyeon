@@ -1,6 +1,6 @@
-import { useStaticQuery, graphql } from 'gatsby';
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import { useStaticQuery, graphql } from "gatsby";
+import React from "react";
+import { Helmet } from "react-helmet";
 
 function Seo({ description, title }) {
   const { site } = useStaticQuery(
@@ -17,15 +17,22 @@ function Seo({ description, title }) {
           }
         }
       }
-    `,
+    `
   );
 
   const metaDescription = description || site.siteMetadata.description;
   return (
     <Helmet
-      htmlAttributes={{ lang: 'en' }}
+      htmlAttributes={{ lang: "en" }}
       title={title}
       defaultTitle={site.siteMetadata.title}
+      link={[
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css",
+        },
+      ]}
       meta={[
         {
           property: `og:title`,
@@ -44,11 +51,11 @@ function Seo({ description, title }) {
           content: metaDescription,
         },
         {
-          property: 'og:author',
+          property: "og:author",
           content: site.siteMetadata.author.name,
         },
         {
-          property: 'og:image',
+          property: "og:image",
           content: site.siteMetadata.ogImage,
         },
 

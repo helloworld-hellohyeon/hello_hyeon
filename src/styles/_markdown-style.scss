@@ -146,12 +146,17 @@
   border-color: var(--link-text-color);
 }
 
+.markdown a:hover {
+  color: #fff;
+  background-color: var(--link-text-color);
+}
+
 .markdown a.anchor {
   border-bottom: none;
 }
 
 .markdown strong {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .markdown hr {
@@ -216,7 +221,7 @@
 
 .markdown h1,
 .markdown h2 {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .markdown h2 {
@@ -229,7 +234,7 @@
 
 .markdown h3,
 .markdown h4 {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .markdown h4 {
@@ -242,7 +247,7 @@
 
 .markdown h5,
 .markdown h6 {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .markdown h6 {
@@ -406,7 +411,7 @@
 }
 
 .markdown .text-bold {
-  font-weight: 600 !important;
+  font-weight: 800 !important;
 }
 
 .markdown .pl-c {
@@ -689,7 +694,7 @@
 .markdown h6 {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.25;
 }
 
