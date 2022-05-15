@@ -65,7 +65,9 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-smarttypo`,
+          {
+            resolve: `gatsby-remark-smartypants`,
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
