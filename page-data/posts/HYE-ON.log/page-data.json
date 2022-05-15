@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/HYE-ON.log",
+    "result": {"pageContext":{"currentCategory":"HYE-ON.log","categories":["All","회고","HYE-ON.log"],"edges":[{"node":{"id":"1678d90c-dbd3-50c1-ba6a-37b20a1f49e3","excerpt":"🤔 왜 코드 리뷰를 시작했나요? 현재 제가 다니고 있는 회사에는 코드 리뷰 문화가 없습니다. 사내 소스 관리 툴인 GitLab에 Merge Request를 올리고 본인이 본인의 Merge Request를 승인하는 방식으로 코드를 관리하고 있죠. 빠르게 패치해야하는 hotfix건이 많아 코드 리뷰를 할 시간도 없고, 리뷰 문화에 익숙한 사람도 없는 이유로 코드 리뷰 문화를 적용하지 않고 있다고 추측하고 있습니다. 코드 리뷰를 진행하지 않고 본인의 코드를 본인이 Merge하는 절차를 따르다 보니 크고 작은 문제들과 불편함이 생겼습니다. 대표적인 케이스들을 예를 들어보면, 한 쪽 파트에서 수정한 사항 때문에 다른 쪽 파트 로직도 함께 바뀌어야 할 때 전달 및 검토가 되지 않는 경우 미처 발견하지 못한 오타가 있는 경우 또 이런 아쉬움도 생겼습니다. 다른 사람의 입장에서 생각한 새로운 로직을 제안받고 싶다. 리팩토링 등으로 코드나 로직이 바뀌었을 때 그렇게 변경한 이유가 궁금하다. 변경사…","fields":{"slug":"/HYE-ON.log/code-review/"},"frontmatter":{"categories":"HYE-ON.log","title":"우리, 코드 리뷰 해볼래?","date":"January 03, 2021"}},"next":{"fields":{"slug":"/회고/2020-lookback/"}},"previous":{"fields":{"slug":"/회고/2021-lookback/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
